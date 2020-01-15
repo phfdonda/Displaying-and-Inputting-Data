@@ -7,8 +7,8 @@
 
 body{
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 380px 1fr;
+    grid-template-rows: 1fr 838px 1fr;
 }
 
 /*** CLASSES ***/
@@ -18,4 +18,30 @@ body{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end:2;
+    justify-self: end;
+    background-color: aqua;
+}
+
+.page_header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    align-self: flex-end;
+    background-color: bisque;
+}
+
+.form_container {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: burlywood;
+}
+
+.form_header {
+    text-align: center;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    text-align: center;
+    background-color: cornflowerblue;
 }
