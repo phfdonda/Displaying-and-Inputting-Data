@@ -1,0 +1,21 @@
+/*** TAGS ***/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+
+/*** CLASSES ***/
+
+.sign_in{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
