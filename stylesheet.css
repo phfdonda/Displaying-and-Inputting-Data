@@ -6,8 +6,7 @@
 }
 
 form{
-    padding: 30px;
-
+    padding: 0px 30px 30px 30px;
 }
 
 a{
@@ -17,7 +16,7 @@ a{
 body{
     display: grid;
     grid-template-columns: 1fr 380px 1fr;
-    grid-template-rows: 1fr 668px 1fr;
+    grid-template-rows: 2fr 700px 1fr;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(236,238,241);
 }
@@ -36,6 +35,13 @@ input{
     padding: 0 6px 0 8px;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+}
 
 /*** CLASSES ***/
 
@@ -56,6 +62,30 @@ input{
     background-color: bisque;
 }
 
+.mint_icon {
+    background-position: ;
+}
+
+.mint_text {
+    background-position: ;
+}
+
+.quickbook_icon {
+    background-position: ;
+}
+
+.quickbook_text {
+    background-position: ;
+}
+
+.turbotax_icon {
+    background-position: ;
+}
+
+.turbotax_text {
+    background-position: ;
+}
+
 .form_container {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -72,6 +102,7 @@ input{
 
 .form_header{
     color:#4c4c4c;
+    padding-top: 30px;
 }
 
 .header_text{
@@ -88,30 +119,53 @@ input{
     height: 32px;
     padding: 6px 12px;
     box-sizing: content-box;
+    background-color: #0077C5;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
 }
 
 .create_account{
     padding-bottom: 30px;
 }
 
+.create_account_btn_icon {
+    display: inline-block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+    height: 15.75px;
+    width: 12.6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 4px;
+    text-align: center;
+}
+
+.create_account_btn_text {
+    line-height: 2;
+}
+
 .reCaptcha{
-    
+    text-align: center;
     font-size: 10px;
     color: #8D9096;
- 
+    line-height: 2.3;
 }
 
 .form_footer{
     background-color: rgb(236,238,241);
     width: 100%;
-    height: 50px;
-    overflow: hidden;
+    height: 20px;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
 }
 .terms{
     color: #757575;
     font-style: italic;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 2;
 }
 
 footer {
