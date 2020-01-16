@@ -2,7 +2,7 @@
 
 This is the second project of the Microverse HTML and CSS Curriculum. The project consists of a clone of the Mint page, as requested in the TOP curriculum.
 
-![screenshot](./screenshot.bmp)
+![screenshot](./screenshot.png)
 
 ## Built with
 - HTML5
