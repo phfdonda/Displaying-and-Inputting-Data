@@ -61,7 +61,7 @@ ul {
 }
 
 li {
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+    display: inline-block;
 }
 
 /*** CLASSES ***/
@@ -73,6 +73,8 @@ li {
     grid-row-end:2;
     justify-self: end;
     display: flex;
+    padding-top: 10px;
+    padding-right: 30px;
 }
 
 .sign_in button{
@@ -81,18 +83,19 @@ li {
     padding: 0 20px;
     box-sizing: content-box;
     background-color: #0077C5;
-    border: solid black 1px;
+    border: solid rgb(76, 76, 76) 1px;
     border-radius: 4px;
     color: #fff;
     font-size: 13.5px;
     margin-left: 10px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .sign_in_text{
     font-size: 12px;
     line-height: 1.5;
-    padding-top: 10px;
 }
 
 .intuit_account{
@@ -102,14 +105,14 @@ li {
 .sign_in_btn_icon{
     display: inline-block;
     background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
-    height: 15.75px;
-    width: 12.6px;
+    height: 13.5px;
+    width: 10.8px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 4px;
-    text-align: center;
+    margin-top: 2px;
+    text-align: left;
 }
-
 
 .page_header {
     grid-column: 2 / 3;
@@ -118,28 +121,49 @@ li {
     background-color: bisque;
 }
 
+.logo {
+    display: block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+    background-position: 0 0;
+    background-size: auto;
+    width: 118px;
+    height: 35px;
+}
+
 .mint_icon {
-    background-position: ;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg);
+    width: 23px;
+    height: 23px;
 }
 
 .mint_text {
-    background-position: ;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.18.9/css/ius-base-theme-intuit-ecosystem.min.css?v=1.18.9);
+    width: 37px;
+    height: 20px;
 }
 
-.quickbook_icon {
-    background-position: ;
+.quickbooks_icon {
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quickbooks-favicon@2x-c89488e8.svg);
+    width: 23px;
+    height: 23px;
 }
 
-.quickbook_text {
-    background-position: ;
+.quickbooks_text {
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quick-books-text-db6c72bf.svg);
+    width: 98px;
+    height: 22px;
 }
 
 .turbotax_icon {
-    background-position: ;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg);
+    width: 23px;
+    height: 23px;
 }
 
 .turbotax_text {
-    background-position: ;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.18.9/css/ius-base-theme-intuit-ecosystem.min.css?v=1.18.9);
+    width: 74px;
+    height: 22px;
 }
 
 .form_container {
@@ -180,6 +204,10 @@ li {
     border-radius: 4px;
     color: #fff;
     font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
 }
 
 .create_account{
@@ -190,10 +218,10 @@ li {
     display: inline-block;
     background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
     height: 15.75px;
-    width: 12.6px;
+    width: 12.5px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 4px;
+    margin-right: 8px;
     text-align: center;
 }
 
