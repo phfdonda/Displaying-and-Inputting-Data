@@ -2,6 +2,9 @@
 
 module.exports = {
   "extends": "stylelint-config-recommended",
+  "ignoreFiles": [
+    "package-lock.json"
+  ],
   "rules": {
     "at-rule-empty-line-before": [ "always", {
       except: [

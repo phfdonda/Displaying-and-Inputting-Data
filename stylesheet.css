@@ -1,285 +1,282 @@
 /*** TAGS ***/
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-form{
-    padding: 0px 30px 30px 30px;
+form {
+  padding: 0 30px 30px 30px;
 }
 
-a{
-    color: rgb(0,119,197);
-    text-decoration: none;
+a {
+  color: rgb(0, 119, 197);
+  text-decoration: none;
 }
-
 
 footer {
-    grid-column: 1 / 4;
-    grid-row: 3 / 4;
-    text-align: center;
-    padding: 20px 0;
-    color: rgb(80,80,80);
-    font-size: 12px;
-    line-height: 1.5;
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  text-align: center;
+  padding: 20px 0;
+  color: rgb(80, 80, 80);
+  font-size: 12px;
+  line-height: 1.5;
 }
 
-footer a{
-    color: rgb(80,80,80);
-    padding: 0 5px;
+footer a {
+  color: rgb(80, 80, 80);
+  padding: 0 5px;
 }
 
-footer a:hover{
-    text-decoration: underline;
+footer a:hover {
+  text-decoration: underline;
 }
 
-body{
-    display: grid;
-    grid-template-columns: 1fr 380px 1fr;
-    grid-template-rows: 2fr fit-content(700px) 1fr;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(236,238,241);
+body {
+  display: grid;
+  grid-template-columns: 1fr 380px 1fr;
+  grid-template-rows: 2fr fit-content(700px) 1fr;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(236, 238, 241);
 }
 
-label{
-    display: block;
-    padding-bottom: 6px;
-    font-size: 14px;
-    color: rgb(64,64,64);
+label {
+  display: block;
+  padding-bottom: 6px;
+  font-size: 14px;
+  color: rgb(64, 64, 64);
 }
 
-input{
-
-    border: 1px solid rgb(193, 197, 200);
-    border-radius: 3px;
-    width: 304px;
-    height: 34px;
-    padding: 0 6px 0 8px;
+input {
+  border: 1px solid rgb(193, 197, 200);
+  border-radius: 3px;
+  width: 304px;
+  height: 34px;
+  padding: 0 6px 0 8px;
 }
 
 ul {
-    list-style-type: none;
-    margin-bottom: 19px;
-    text-align: center;
+  list-style-type: none;
+  margin-bottom: 19px;
+  text-align: center;
 }
 
 li {
-    display: inline-block;
+  display: inline-block;
 }
 
 /*** CLASSES ***/
 
-.sign_in{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end:2;
-    justify-self: end;
-    display: flex;
-    padding-top: 10px;
-    padding-right: 30px;
+.sign_in {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: end;
+  display: flex;
+  padding-top: 10px;
+  padding-right: 30px;
 }
 
-.sign_in button{
-    width: 61px;
-    height: 32px;
-    padding: 0 20px;
-    box-sizing: content-box;
-    background-color: #0077C5;
-    border: solid rgb(76, 76, 76) 1px;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 13.5px;
-    margin-left: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.sign_in button {
+  width: 61px;
+  height: 32px;
+  padding: 0 20px;
+  box-sizing: content-box;
+  background-color: #0077c5;
+  border: solid rgb(76, 76, 76) 1px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 13.5px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.sign_in_text{
-    font-size: 12px;
-    line-height: 1.5;
+.sign_in_text {
+  font-size: 12px;
+  line-height: 1.5;
 }
 
-.intuit_account{
-    color: #808080;
+.intuit_account {
+  color: #808080;
 }
 
-.email, .phone, .password{
-    margin-bottom: 30px;
+.email,
+.phone,
+.password {
+  margin-bottom: 30px;
 }
 
-.standard_call{
-    color: rgb(68,68,68);
-    font-size: 10px;
-    padding-top: 5px;
+.standard_call {
+  color: rgb(68, 68, 68);
+  font-size: 10px;
+  padding-top: 5px;
 }
 
-.sign_in_btn_icon{
-    display: inline-block;
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
-    height: 13.5px;
-    width: 10.8px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 4px;
-    margin-top: 2px;
-    text-align: left;
+.sign_in_btn_icon {
+  display: inline-block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+  height: 13.5px;
+  width: 10.8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  margin-top: 2px;
+  text-align: left;
 }
 
 .page_header {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    align-self: flex-end;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  align-self: flex-end;
 }
 
 .logo {
-    display: block;
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
-    background-position: 0 0;
-    background-size: auto;
-    width: 118px;
-    height: 35px;
-    padding-bottom: 20px;
-    margin: 0 auto;
+  display: block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  background-position: 0 0;
+  background-size: auto;
+  width: 118px;
+  height: 35px;
+  padding-bottom: 20px;
+  margin: 0 auto;
 }
 
 .mint_icon {
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg);
-    width: 23px;
-    height: 23px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg);
+  width: 23px;
+  height: 23px;
 }
 
 .mint_text {
-    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-text-0fa36974.svg) no-repeat;
-    width: 37px;
-    height: 20px;
-    margin-right: 9px;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-text-0fa36974.svg) no-repeat;
+  width: 37px;
+  height: 20px;
+  margin-right: 9px;
 }
 
 .quickbooks_icon {
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quickbooks-favicon@2x-c89488e8.svg);
-    width: 23px;
-    height: 23px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quickbooks-favicon@2x-c89488e8.svg);
+  width: 23px;
+  height: 23px;
 }
 
 .quickbooks_text {
-    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quick-books-text-db6c72bf.svg) no-repeat;
-    width: 98px;
-    height: 22px;
-    margin-right: 9px;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quick-books-text-db6c72bf.svg) no-repeat;
+  width: 98px;
+  height: 22px;
+  margin-right: 9px;
 }
 
 .turbotax_icon {
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg);
-    width: 23px;
-    height: 23px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg);
+  width: 23px;
+  height: 23px;
 }
 
 .turbotax_text {
-    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/turbo-tax-text-9bc025c5.svg) no-repeat;
-    width: 74px;
-    height: 22px;
-    margin-right: 9px;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/turbo-tax-text-9bc025c5.svg) no-repeat;
+  width: 74px;
+  height: 22px;
+  margin-right: 9px;
 }
 
 .form_container {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    background-color: white;
-    border: solid 1px rgb(199,199,199);
-    border-radius: 2px;
-    box-sizing: content-box;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: white;
+  border: solid 1px rgb(199, 199, 199);
+  border-radius: 2px;
+  box-sizing: content-box;
 }
 
-
-
-.header_title{
-    font-size: 24px;
-    font-weight: 400;
-}
-
-.form_header{
-    color:#4c4c4c;
-    padding-top: 30px;
-}
-
-.header_text{
-    padding-top: 20px;
-    font-size: 14px;
+.header_title {
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .form_header {
-    text-align: center;
-    padding-bottom: 20px;
-}
-.create_account_btn{
-    width: 294px;
-    height: 32px;
-    padding: 6px 12px;
-    box-sizing: content-box;
-    background-color: #0077C5;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+  color: #4c4c4c;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
-.create_account{
-    padding-bottom: 30px;
+.header_text {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.create_account_btn {
+  width: 294px;
+  height: 32px;
+  padding: 6px 12px;
+  box-sizing: content-box;
+  background-color: #0077c5;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+
+.create_account {
+  padding-bottom: 30px;
 }
 
 .create_account_btn_icon {
-    display: inline-block;
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
-    height: 15.75px;
-    width: 12.5px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 8px;
-    text-align: center;
+  display: inline-block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+  height: 15.75px;
+  width: 12.5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+  text-align: center;
 }
 
 .create_account_btn_text {
-    line-height: 2;
+  line-height: 2;
 }
 
-.reCaptcha{
-    text-align: center;
-    font-size: 10px;
-    color: #8D9096;
-    line-height: 2.3;
+.reCaptcha {
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+  line-height: 2.3;
 }
 
-.form_footer{
-    background-color: rgb(236,238,241);
-    width: 100%;
-    height: 20px;
-    padding: 16px 0;
-    display: flex;
-    justify-content: center;
+.form_footer {
+  background-color: rgb(236, 238, 241);
+  width: 100%;
+  height: 20px;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
 }
-.terms{
-    color: #757575;
-    font-style: italic;
-    text-align: center;
-    font-size: 12px;
-    line-height: 2;
+
+.terms {
+  color: #757575;
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+  line-height: 2;
 }
 
 /*** MEDIA QUERY ***/
 
-@media screen and (max-width:767px){
-    .sign_in{
-        display:none;
-    }
-    body{
-        grid-template-rows: minmax(15px,117px) fit-content(700px) 1fr;
-    }
+@media screen and (max-width: 767px) {
+  .sign_in {
+    display: none;
+  }
 
+  body {
+    grid-template-rows: minmax(15px, 117px) fit-content(700px) 1fr;
+  }
 }
